@@ -1,0 +1,157 @@
+body{
+    background-color:rgb(11, 0, 48);
+    
+  }
+  
+/*--------------resume------------*/
+
+.w3-content {
+  background-color: #000000c8;
+  width: 1200px;
+  margin-top: 100px;
+  max-width:1000px;
+  margin-left: 10%;
+ 
+
+}
+
+img{
+  width: 50%;
+  border-radius: 15px;
+  margin-left: 10%;
+}
+
+.w3-display-container{
+  background-color:#101010;
+}
+.w3-container{
+  background-color:#101010 ;
+}
+
+.w3-twothird{
+  background-color:#101010;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: #eb007d;
+}
+
+p i{
+  background-color: rgb(255, 0, 64);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.ap{
+font-size: 30px;
+margin-left: 40px;
+font-weight: bold;
+color: #101010;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------contact sction------------------------------------------------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #0924ee;
+  margin-top: 6px;
+  margin-bottom: 1px;
+  resize: vertical;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+h2{
+  color: #003567;
+  font-size: 70px;
+}
+
+input[type=submit] {
+  background-color: #eb007d;
+  color: rgb(250, 250, 250);
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type=submit]:hover {
+  background-color: #e900a7;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #010d1ac9;
+  padding: 30px;
+  width: 90%;
+  margin-top: 5%;
+}
+input[type=text], select, textarea {
+  background:rgb(0, 0, 0);
+  color: azure;}
+
+label
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+  .ap{
+    font-size: 30px;
+    margin-left: 100px;
+    font-weight: bold;
+    color: #101010;
+    }
+    .w3-content {
+      background-color: #000000c8;
+      width: 1200px;
+      margin-top: 100px;
+      max-width:1000px;
+}
+
+img{
+  width: 20%;
+  border-radius: 15px;
+  margin-left: 10%;
+}
+
+p {
+margin-left:5%;
+}
+.w3-content{
+  background-color: #000000c8;
+  width: 400px;
+  margin-top: 100px;
+  max-width:700px;
+  margin-left: 10%;
+ 
+}
+}
